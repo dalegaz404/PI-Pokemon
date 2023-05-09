@@ -1,0 +1,56 @@
+/* .pagination {
+	display: inline-block;
+	position: sticky;
+} */
+
+.prevBtn{
+    display: inline-block;
+    position: absolute;
+    margin-left: -6.5rem;
+	margin-top: 1rem;
+}
+
+.pageOf{
+    display: inline-block;
+    position: sticky;
+	margin-top: 1rem;
+}
+
+.nextBtn{
+    display: inline-block;
+    position: absolute;
+    margin-left: 1.3rem;
+	margin-top: 1rem;
+}
+
+.pages{
+    display: inline-block;
+    margin: 5px;
+}
+
+.pagesBtn {
+	box-shadow:inset 0px 0px 14px -3px #f2fadc;
+	/* background:linear-gradient(to bottom, #dbe6c4 5%, #9ba892 100%);
+	background-color:#dbe6c4; */
+	background-color:#C1C3BC90;
+	border-radius:6px;
+	border:1px solid #b2b8ad;
+	display:inline-block;
+	cursor:pointer;
+	color:#273314;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ced9bf;
+}
+.pagesBtn:hover {
+	background:linear-gradient(to bottom, rgba(156, 169, 147, 0.2) 5%, rgba(219, 230, 196, 0.2) 100%);
+	background-color:rgba(155, 168, 146, 0.2);
+}
+.pagesBtn:active {
+	position:relative;
+	top:1px;
+}
+

@@ -1,0 +1,82 @@
+.searchBox{
+    /* display: flex;
+	flex-direction: row; */
+	position: absolute;
+	right: 8rem;
+	top: 1.9rem;
+    /* justify-content: center; */
+}
+
+.searchAdd {
+    display: flex;
+    justify-content: center;
+	height: 2.5rem;
+}
+
+.searchAddForm {
+    display: flex;
+    justify-content: center;    
+}
+
+.searchInput {
+	height: 1.65rem;
+	opacity: 0.6;
+}
+
+.btnCreate{
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content:center;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e3e3e3;    
+    margin-left: 22rem;
+	margin-top: -1.1rem;
+	width: 3.3rem;
+	height: 3.3rem;
+	background-color:#C1C3BC90;
+	box-shadow:inset 0px 0px 14px -3px #f2fadc;
+	border-radius: 45%;
+	border:1px solid #b2b8ad;
+	cursor:pointer;
+	color:#273314;
+	font-family:Arial;
+	font-size:1.2rem;
+	font-weight:bold;
+	padding: 1rem;
+}
+
+.btnCreate:hover {
+	background:linear-gradient(to bottom, rgba(156, 169, 147, 0.2) 5%, rgba(219, 230, 196, 0.2) 100%);
+	background-color:rgba(155, 168, 146, 0.2);
+}
+.btnCreate:active {
+	position:relative;
+	top:1px;
+}
+
+.searchBarBtns {
+	width: 11.65rem;
+	height: 2rem;
+	box-shadow:inset 0px 0px 14px -3px #f2fadc;
+	background-color:#C1C3BC90;
+	border-radius:6px;
+	border:1px solid #b2b8ad;
+	display:inline-block;
+	cursor:pointer;
+	color:#273314;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ced9bf;
+}
+.searchBarBtns:hover {
+	background:linear-gradient(to bottom, rgba(156, 169, 147, 0.2) 5%, rgba(219, 230, 196, 0.2) 100%);
+	background-color:rgba(155, 168, 146, 0.2);
+}
+.searchBarBtns:active {
+	position:relative;
+	top:1px;
+}

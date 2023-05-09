@@ -1,0 +1,120 @@
+.landingPageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100%;
+	width: 100%; */
+	min-height: 100vh;
+	background-image: url("https://wallpaperaccess.com/full/7062960.jpg");
+    background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.loadingApp{
+    font-size: 1.6rem;
+    color: rgba(220, 246, 255, 0.9);
+	animation-name: flash;
+	animation-duration: 0.4s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+	position: absolute;
+}
+
+.landing{
+	animation-name: flash;
+	animation-duration: 0.5s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;	
+}
+
+.landingBtn {
+    cursor: pointer;
+	text-decoration:none;
+	box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 3px 2px;
+	background:rgba(255, 255, 255, 0.2);
+	text-indent:0px;
+	line-height:2rem;
+	border-radius:50%;
+	text-align:center;
+	vertical-align:middle;
+	display:inline-block;
+	font-size:3.6rem;
+	color:rgba(255, 255, 255, 0.5);
+	width:15rem;
+	height:15rem;
+	padding:1rem;
+	border-color:#5a5c5cb9;
+	border-width:0.12rem;
+	border-style:solid;
+	animation-name: bounceInDown;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	background-image: url("../../img/pokeBall.gif");
+    background-size: 11rem;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.landingBtn:active {
+	box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 0 2px;
+	box-shadow:inset #ffffff 0px 5px 8px -1px,#d6d6d6 1px 0 2px;
+	position:relative;
+	top:0.3rem;
+	background-image: url("../../img/pokeBall.gif");
+    background-size: 11rem;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.landingBtn:hover {
+	background:rgba(255, 255, 255, 0.8);
+	background-image: url("../../img/pokeBall.gif");
+    background-size: 11.8rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 0.9;
+	color:rgba(255, 255, 255, 0.7);
+	font-size:4.2rem;
+}
+
+@keyframes flash {
+	0%, 50%, 100% {
+		opacity: 1;
+	}
+	
+	25%, 75% {
+	opacity: 0.5;
+	}
+}
+
+@keyframes bounceInDown {
+	0%, 60%, 75%, 90%, 100% {
+		transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+	}
+
+	0% {
+		opacity: 0;
+		transform: translate3d(0, -3000px, 0);
+	}
+
+	60% {
+		opacity: 1;
+		transform: translate3d(0, 25px, 0);
+	}
+
+	75% {
+		transform: translate3d(0, -10px, 0);
+	}
+
+	90% {
+		transform: translate3d(0, 5px, 0);
+	}
+
+	100% {
+		transform: none;
+	}
+}
+

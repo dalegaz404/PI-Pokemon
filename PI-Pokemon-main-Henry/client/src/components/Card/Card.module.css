@@ -1,0 +1,51 @@
+.card{
+    width: 15rem;
+    height: 21rem;
+    margin: 1.15rem;
+    border: 0.05rem solid #b2b8ad;
+    border-radius: 4%;
+    background-color: rgba(194, 191, 147, 0.3);
+    backdrop-filter: blur(0.25rem) grayscale(75%);
+    box-shadow: 8px 8px 20px 0px rgba(66, 68, 90, 1);
+    
+}
+
+.card:hover{
+    background-color: rgba(79, 104, 53, 0.5);
+}
+
+.cardId{
+ margin-top: 0.5rem;
+ margin-left: 12rem;
+ color: #d7dfd1;
+ font-size: 0.85rem;
+}
+
+.cardImg{
+    margin-top: -1.7rem;
+}
+
+.cardName{
+    margin-top: 0;
+    color:#e53922e9;
+    text-shadow: 0px 0px 10px;
+}
+
+.containerCardTypes{
+    margin-top: -1.25rem;
+    color: #d7dfd1;
+}
+
+.cardTypes{
+    display: inline-block;
+    margin-top: 1.2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0.3rem;
+    border-radius: 12%;
+    color: #d7dfd1;
+    background-color: rgba(239, 102, 10, 0.665);
+    width: 5rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
